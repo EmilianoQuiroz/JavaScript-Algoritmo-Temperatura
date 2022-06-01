@@ -15,8 +15,8 @@ do {
 
 //Menu
 do{
-    alert("1. Comvertir grados Celcius a Kelvin\n");
-    alert("2. Convertir grados Celcius a Farenheit\n");
+    alert("1. Comvertir grados Celsius a Kelvin\n");
+    alert("2. Convertir grados Celsius a Farenheit\n");
     alert("3. Introducir otro valor\n");
     alert("4. Salir\n");
     opc = prompt(" Digite una opcion: "); 
@@ -24,7 +24,7 @@ do{
     switch(opc){
         case "1":
             k = temperatura + KELVIN;
-            alert(`La temperatura en KELVIN es = ${k}`);
+            alert(`La temperatura en Kelvin es = ${k}`);
             break;
         case "2":
             f = (temperatura * 9 / 5) + 32;
